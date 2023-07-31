@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "An Electron application with Vue",
   "main": "./out/main/index.js",
-  "author": "example.com",
-  "homepage": "https://www.electronjs.org",
+  "author": "cairbin.top",
+  "homepage": "https://github.com/CairBin/ZeroTierGUI-for-Linux",
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
@@ -20,7 +20,9 @@
     "@electron-toolkit/preload": "^1.0.3",
     "@electron-toolkit/utils": "^1.0.2",
     "@element-plus/icons-vue": "^2.1.0",
-    "element-plus": "^2.3.8"
+    "electron-sudo": "^4.0.12",
+    "element-plus": "^2.3.8",
+    "sudo-prompt": "^9.2.1"
   },
   "devDependencies": {
     "@electron/notarize": "^1.2.3",

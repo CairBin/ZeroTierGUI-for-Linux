@@ -1,8 +1,11 @@
 import { contextBridge } from 'electron'
 import { electronAPI } from '@electron-toolkit/preload'
+import zeroTierProcess from './models/process.js'
 
 // Custom APIs for renderer
-const api = {}
+const api = {
+  zeroTierProcess
+}
 
 // Use `contextBridge` APIs to expose Electron APIs to
 // renderer only if context isolation is enabled, otherwise
@@ -13,6 +16,7 @@ if (process.contextIsolated) {
     contextBridge.exposeInMainWorld('api', api)
   } catch (error) {
     console.error(error)
+    
   }
 } else {
   window.electron = electronAPI
