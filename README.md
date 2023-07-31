@@ -10,17 +10,17 @@ A Linux GUI for ZeroTier under the electron.
 * Start/Stop ZeroTier Service
 * Start with Linux
 
-[](./blob/settings.png)
+![](./blob/settings.png)
 
 
 ### Manage Networks
-[](./blob/networks.png)
+![](./blob/networks.png)
 
 ### View Peers
-[](./blob/peers.png)
+![](./blob/peers.png)
 
 ### Manage Moons
-[](./blob/moons.png)
+![](./blob/moons.png)
 
 
 ## Project Setup
@@ -35,5 +35,5 @@ npm run build:linux
 
 
 ## License
-![MIT](https://opensource.org/license/mit/)
+[MIT](https://opensource.org/license/mit/)
 Copyright(c) 2023 - Now CairBin
