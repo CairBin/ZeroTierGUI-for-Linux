@@ -1,34 +1,39 @@
-# zerotiergui-for-linux
+# ZeroTierGUI for Linux
 
-An Electron application with Vue
+## Description
+A Linux GUI for ZeroTier under the electron.
 
-## Recommended IDE Setup
+## Functions
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+### Base Settings
+
+* Start/Stop ZeroTier Service
+* Start with Linux
+
+[](./blob/settings.png)
+
+
+### Manage Networks
+[](./blob/networks.png)
+
+### View Peers
+[](./blob/peers.png)
+
+### Manage Moons
+[](./blob/moons.png)
+
 
 ## Project Setup
-
-### Install
-
-```bash
-$ npm install
-```
-
 ### Development
-
-```bash
-$ npm run dev
+```shell
+npm run dev
 ```
-
 ### Build
-
-```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
+```shell
+npm run build:linux
 ```
+
+
+## License
+![MIT](https://opensource.org/license/mit/)
+Copyright(c) 2023 - Now CairBin
