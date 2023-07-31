@@ -4,7 +4,7 @@ import { reactive } from 'vue'
 const data = reactive({
     aboutInfo: `
     ZeroTierGUI for Linux
-    Copyright (c) 2023 CairBin\n
+    Copyright (c) 2023-present CairBin\n
     Released under the terms of the MIT License
     Source URL: https://github/cairbin/ZeroTireGUI-for-Linux
 
@@ -39,5 +39,4 @@ const data = reactive({
     </div>
 </template>
 
-<style scope>
-</style>
+<style scope></style>
